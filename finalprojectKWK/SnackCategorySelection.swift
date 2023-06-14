@@ -11,7 +11,7 @@ struct SnackCategorySelection: View {
     var body: some View {
         
         ZStack {
-            Color(.yellow)
+            Color(red: 0.794, green: 0.525, blue: 0.103)
                 .ignoresSafeArea()
             
             VStack {
@@ -19,8 +19,7 @@ struct SnackCategorySelection: View {
                 Text("What Type Of Snacks?")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(Color.red)
+                    .foregroundColor(Color(hue: 1.0, saturation: 0.997, brightness: 0.435))
                     .padding(.all)
                    
                 Button("Spicy") {

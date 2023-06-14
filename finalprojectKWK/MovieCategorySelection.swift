@@ -11,7 +11,7 @@ struct MovieCategorySelection: View {
     var body: some View {
         ZStack {
             
-            /*@START_MENU_TOKEN@*/Color(red: 0.097, green: 0.106, blue: 0.14)/*@END_MENU_TOKEN@*/
+            Color(red: 0.097, green: 0.106, blue: 0.14)
                 .ignoresSafeArea()
 
             VStack {

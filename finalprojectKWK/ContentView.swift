@@ -12,10 +12,10 @@ struct ContentView: View {
             NavigationStack {
                 VStack {
                     Text("Movie Night: Make It Your Way")
-                        .font(.system(size:25))
+                        .font(.title)
                         .bold()
                         .padding()
-                        .font(.custom("Limelight", size: 25))
+                        .font(.title)
                     Button("Movies"){}
                         .font(.title)
                         .padding()

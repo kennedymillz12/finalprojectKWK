@@ -27,7 +27,7 @@ struct ContentView: View {
                     .padding([.leading, .bottom, .trailing])
                     .padding()
                 
-                Button("COMEDY") {
+                Button("MOVIES") {
                 }
                 .padding(.all)
                 .buttonStyle(.borderedProminent)
@@ -36,7 +36,7 @@ struct ContentView: View {
                 .fontWeight(.regular)
                 .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.856, green: 0.132, blue: 0.149)/*@END_MENU_TOKEN@*/)
                
-                Button("HORROR") {
+                Button("SNACKS") {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(Color(red: 0.752, green: 0.757, blue: 0.757))
@@ -57,5 +57,9 @@ struct ContentView: View {
         }
         }
     }
-
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
 

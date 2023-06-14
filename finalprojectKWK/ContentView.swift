@@ -8,34 +8,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack{
-            VStack{
-                NavigationLink(destination: MovieCategorySelection()){
-                    Text("Movie")
-                    
+        
+            NavigationStack {
+                VStack {
+                    Text("Movie Night: Make It Your Way")
+                        .font(.system(size:25))
+                        .bold()
+                        .padding()
+                        .font(.custom("Limelight", size: 25))
+                    Button("Movies"){}
+                        .font(.title)
+                        .padding()
+                        .buttonStyle(.borderedProminent)
+                    Button("Snacks"){}
+                        .font(.title)
+                        .padding()
+                        .buttonStyle(.borderedProminent)
                 }
-                
-                NavigationLink(destination: SnackCategorySelection()){
-                    Text("Snack")
-                    
-                }
-                
-                
             }
             
             
             
-            
-            
         }
-
-        
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
 

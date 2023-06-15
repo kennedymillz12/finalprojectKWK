@@ -39,3 +39,11 @@ var spicy = [ Snack(displayPic: "Takis", displayTitle: "Crispy, crunchy, and spi
               
                ]
 
+var sour = [Snack(displayPic: "sourPatch", displayTitle: "First they're sour, then they're sweet!"),  Snack(displayPic: "sourSkittles", displayTitle: "Try something sweet and sour!"), Snack(displayPic: "warheads", displayTitle: "Try something really sour!"), Snack(displayPic: "sourPunchStraws", displayTitle: "Try something sweet and sour!"), Snack(displayPic: "lucasMuecas", displayTitle: "Tr something new and sour!")
+
+]
+
+var salty = [Snack(displayPic: "goldfish", displayTitle: "Try the snack that smiles back!"),Snack(displayPic: "laysChips", displayTitle: "Try something salty and crunchy!"),Snack(displayPic: "Nachos", displayTitle: "Add cheese, meat, or whatever toppings you want!"),Snack(displayPic: "pickles", displayTitle: "Try dill pickles, or bread and butter pickles!"),Snack(displayPic: "popcorn", displayTitle: "Try the origanal movie snack!"),Snack(displayPic: "pretzels", displayTitle: "Salty and crunchy"),Snack(displayPic: "Sardines", displayTitle: "Try a new salty snack!")
+
+]
+

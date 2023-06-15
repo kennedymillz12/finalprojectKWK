@@ -40,6 +40,10 @@ struct SnackCategorySelection: View {
                     .tint(Color(red: 0.8588235294117647, green: 0.12941176470588237, blue: 0.14901960784313725))
                     .font(.title)
                     Button("SALTY") {
+                        flavor = salty[Int.random(in:0..<7)]
+                        image = flavor.getPic()
+                        name = flavor.getTitle()
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
@@ -57,6 +61,10 @@ struct SnackCategorySelection: View {
                     .font(.title)
                     
                     Button("SOUR") {
+                        flavor = sour[Int.random(in:0..<5)]
+                        image = flavor.getPic()
+                        name = flavor.getTitle()
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)

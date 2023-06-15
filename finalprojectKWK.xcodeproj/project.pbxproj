@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F86B2892A3AD6EC00D17951 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B2882A3AD6EC00D17951 /* Snack.swift */; };
 		0F86B28B2A3AD71200D17951 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B28A2A3AD71200D17951 /* Movie.swift */; };
+		0F86B28D2A3AD7BF00D17951 /* MovieDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B28C2A3AD7BF00D17951 /* MovieDisplay.swift */; };
+		0F86B28F2A3AD7E300D17951 /* SnackDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B28E2A3AD7E300D17951 /* SnackDisplay.swift */; };
 		4EFB23ED2A376C6A0011CCF1 /* finalprojectKWKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB23EC2A376C6A0011CCF1 /* finalprojectKWKApp.swift */; };
 		4EFB23EF2A376C6A0011CCF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB23EE2A376C6A0011CCF1 /* ContentView.swift */; };
 		4EFB23F12A376C6E0011CCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFB23F02A376C6E0011CCF1 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		0F86B2882A3AD6EC00D17951 /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
 		0F86B28A2A3AD71200D17951 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0F86B28C2A3AD7BF00D17951 /* MovieDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDisplay.swift; sourceTree = "<group>"; };
+		0F86B28E2A3AD7E300D17951 /* SnackDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackDisplay.swift; sourceTree = "<group>"; };
 		4EFB23E92A376C6A0011CCF1 /* finalprojectKWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalprojectKWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFB23EC2A376C6A0011CCF1 /* finalprojectKWKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalprojectKWKApp.swift; sourceTree = "<group>"; };
 		4EFB23EE2A376C6A0011CCF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				4EFB23EE2A376C6A0011CCF1 /* ContentView.swift */,
 				BD5D734A2A38F6F400C96227 /* MovieCategorySelection.swift */,
 				BD5D73482A38F6DE00C96227 /* SnackCategorySelection.swift */,
+				0F86B28E2A3AD7E300D17951 /* SnackDisplay.swift */,
+				0F86B28C2A3AD7BF00D17951 /* MovieDisplay.swift */,
 				0F86B2882A3AD6EC00D17951 /* Snack.swift */,
 				0F86B28A2A3AD71200D17951 /* Movie.swift */,
 				4EFB23F02A376C6E0011CCF1 /* Assets.xcassets */,
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EFB23EF2A376C6A0011CCF1 /* ContentView.swift in Sources */,
+				0F86B28D2A3AD7BF00D17951 /* MovieDisplay.swift in Sources */,
 				BD5D73492A38F6DE00C96227 /* SnackCategorySelection.swift in Sources */,
+				0F86B28F2A3AD7E300D17951 /* SnackDisplay.swift in Sources */,
 				0F86B28B2A3AD71200D17951 /* Movie.swift in Sources */,
 				4EFB23ED2A376C6A0011CCF1 /* finalprojectKWKApp.swift in Sources */,
 				BD5D734B2A38F6F400C96227 /* MovieCategorySelection.swift in Sources */,

@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SnackDisplay: View {
+    @State var image = "M&MS"
+    @State var name = "Coral"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Text(name)
+                .font(.title)
+                .padding()
+            
+                .padding()
+            
+            Image(image)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            
+        }
+        
+        //Spacer()
+        
+        
     }
 }
 

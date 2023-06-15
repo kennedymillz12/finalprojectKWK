@@ -7,6 +7,12 @@
 
 import SwiftUI
 struct SnackCategorySelection: View {
+    @State private var flavor = Snack(displayPic : "", displayTitle : "")
+    
+    @State var image = "Soda"
+    @State var name = "Coral"
+    @State var clicker = ""
+    
     var body: some View {
         
         NavigationStack{
@@ -34,6 +40,10 @@ struct SnackCategorySelection: View {
                     .tint(.red)
                     .font(.title)
                     Button("Sweet") {
+                        flavor = sweet[Int.random(in:0..<4)]
+                        image = flavor.getPic()
+                        name = flavor.getTitle()
+                        clicker = "Press here to See Our Selection"
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.red)
@@ -46,8 +56,8 @@ struct SnackCategorySelection: View {
                 }
             }
             
-            NavigationLink(destination: SnackDisplay()){
-                Text("Musical")
+            NavigationLink(destination: SnackDisplay(image: self.image, name: self.name)){
+                Text(clicker)
             }
         }
        

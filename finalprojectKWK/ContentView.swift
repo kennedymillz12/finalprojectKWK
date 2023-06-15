@@ -17,7 +17,7 @@ struct ContentView: View {
                 VStack {
                     Spacer()
                     Text("MOVIE NIGHT: MAKE IT YOUR WAY")
-                        .font(.largeTitle)
+                        .font(Font.custom("Limelight-Regular", size: 33))
                     
                         .fontWeight(.light)
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.99, green: 0.76, blue: 0.322)/*@END_MENU_TOKEN@*/)
@@ -29,7 +29,7 @@ struct ContentView: View {
                     
                     Button(action:{},
                            label: { NavigationLink(destination: MovieCategorySelection()){Text("MOVIES")} })
-                    
+                    .font(Font.custom("Limelight-Regular", size: 45))
                     .padding(.all)
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.752, green: 0.757, blue: 0.757))
@@ -41,6 +41,7 @@ struct ContentView: View {
                         Text("SNACKS")
                         
                     }} )
+                    .font(Font.custom("Limelight-Regular", size: 45))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.752, green: 0.757, blue: 0.757))
                     .font(.largeTitle)

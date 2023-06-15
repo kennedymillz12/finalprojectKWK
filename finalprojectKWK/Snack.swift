@@ -31,3 +31,11 @@ var sweet = [Snack(displayPic: "M&MS", displayTitle: "You Deserve Something Choc
              Snack(displayPic: "Gummy Worms", displayTitle: "So sweet. So chewy. So perfect for snorting through your nose. Try Gummy Worms!"),
              Snack(displayPic: "Gummy Bears", displayTitle: "Eat these quick cuz they get stale QUICK! Try Gummy Bears!")]
 
+var spicy = [ Snack(displayPic: "Takis", displayTitle: "Crispy, crunchy, and spicy.\nHonestly the best choice.\nTry Takis!"),
+              Snack(displayPic: "Chamoy", displayTitle: "So many different forms, but still so delicious!\nTry Chamoy!"),
+              Snack(displayPic: "Hot Cheetos", displayTitle: "A Classic, you can't go wrong.\nTry Hot Cheetos!"),
+              Snack(displayPic: "Hot Tamales", displayTitle: "Cinnamon challenge in a bean!\nTry Hot Tamales!"),
+              Snack(displayPic: "Pulparindo", displayTitle: "Hands down the best one! If you haven't had these, hurry up!\n Try Pulparindo!"),
+              
+               ]
+

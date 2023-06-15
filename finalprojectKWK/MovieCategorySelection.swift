@@ -36,6 +36,13 @@ struct MovieCategorySelection: View {
                         .padding(.all)
                     
                     Button("COMEDY") {
+                        genre = comedy[Int.random(in:0..<7)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
@@ -46,6 +53,13 @@ struct MovieCategorySelection: View {
                     
                     
                     Button("HORROR") {
+                        genre = horror[Int.random(in:0..<7)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
@@ -56,6 +70,13 @@ struct MovieCategorySelection: View {
                     
                     
                     Button("DRAMA") {
+                        genre = drama[Int.random(in:0..<7)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)

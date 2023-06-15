@@ -18,40 +18,52 @@ struct SnackCategorySelection: View {
         NavigationStack{
             
             ZStack {
-                Color(red: 0.794, green: 0.525, blue: 0.103)
+                /*@START_MENU_TOKEN@*/Color(red: 0.99, green: 0.76, blue: 0.322)/*@END_MENU_TOKEN@*/
                     .ignoresSafeArea()
                 
                 VStack {
                     
                     Text("What Type Of Snacks?")
-                        .font(.largeTitle)
+                        .font(Font.custom("Limelight-Regular", size: 31))
                         .fontWeight(.heavy)
-                        .foregroundColor(Color(hue: 1.0, saturation: 0.997, brightness: 0.435))
+                        .foregroundColor((Color(red: 0.8588235294117647, green: 0.12941176470588237, blue: 0.14901960784313725)))
                         .padding(.all)
                     
-                    Button("Spicy") {
+                    Button("SPICY") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
-                    .tint(.red)
+                    .tint(Color(red: 0.8588235294117647, green: 0.12941176470588237, blue: 0.14901960784313725))
                     .font(.title)
-                    Button("Salty") {
+                    Button("SALTY") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
-                    .tint(.red)
+                    .tint(Color(red: 0.858, green: 0.13, blue: 0.149))
                     .font(.title)
-                    Button("Sweet") {
+                    Button("SWEET") {
                         flavor = sweet[Int.random(in:0..<4)]
                         image = flavor.getPic()
                         name = flavor.getTitle()
                         clicker = "Press here to See Our Selection"
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
-                    .tint(.red)
+                    .tint(Color(red: 0.858, green: 0.13, blue: 0.149))
                     .font(.title)
-                    Button("Sour") {
+                    
+                    Button("SOUR") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
-                    .tint(.red)
+                    .tint(Color(red: 0.858, green: 0.13, blue: 0.149))
+                    .font(.title)
+                    
+                    Button("SURPRISE ME!") {
+                    }
+                    .font(Font.custom("Limelight-Regular", size: 30))
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 0.858, green: 0.13, blue: 0.149))
                     .font(.title)
                 }
             }

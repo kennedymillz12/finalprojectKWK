@@ -26,7 +26,7 @@ struct MovieCategorySelection: View {
                 VStack {
                     
                     Text("WHAT MOVIE ARE YOU GOING TO WATCH?")
-                        .font(.largeTitle)
+                        .font(Font.custom("Limelight-Regular", size: 30))
                     
                         .fontWeight(.light)
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.794, green: 0.525, blue: 0.103)/*@END_MENU_TOKEN@*/)
@@ -36,6 +36,7 @@ struct MovieCategorySelection: View {
                     
                     Button("COMEDY") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -43,6 +44,7 @@ struct MovieCategorySelection: View {
                     
                     Button("HORROR") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -50,6 +52,7 @@ struct MovieCategorySelection: View {
                     
                     Button("DRAMA") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -57,6 +60,7 @@ struct MovieCategorySelection: View {
                     
                     Button("ROMANCE") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -64,6 +68,7 @@ struct MovieCategorySelection: View {
                     
                     Button("COMING OF AGE") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -71,6 +76,7 @@ struct MovieCategorySelection: View {
                     
                     Button("ACTION") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -78,6 +84,7 @@ struct MovieCategorySelection: View {
                     
                     Button("FAMILY FRIENDLY") {
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
@@ -89,6 +96,15 @@ struct MovieCategorySelection: View {
                         review = genre.getReview()           //Call getReview func in Movie to update
                         clicker = "Press here to See Our Selection"  //Update the clicker on bottom
                     }
+                    .font(Font.custom("Limelight-Regular", size: 30))
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
+                    .font(.title)
+                    .fontWeight(.thin)
+                    
+                    Button("SURPRISE ME!") {
+                    }
+                    .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)

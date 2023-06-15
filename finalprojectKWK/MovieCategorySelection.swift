@@ -5,6 +5,9 @@
 //  Created by scholar on 6/13/23.
 //
 
+//How to get th
+
+
 import SwiftUI
 struct MovieCategorySelection: View {
     @State private var genre = Movie(displayPic: "", displayReview: "")
@@ -81,10 +84,10 @@ struct MovieCategorySelection: View {
                     .fontWeight(.thin)
                     
                     Button("SCI-FI/FANTASY") {
-                        genre = sciFi[Int.random(in:0..<4)]
-                        image = genre.getPic()
-                        review = genre.getReview()
-                        clicker = "Press here to See Our Selection"
+                        genre = sciFi[Int.random(in:0..<4)]  //Call the genre array I made in Movie
+                        image = genre.getPic()               //Call getPic func in Movie to update image
+                        review = genre.getReview()           //Call getReview func in Movie to update
+                        clicker = "Press here to See Our Selection"  //Update the clicker on bottom
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))

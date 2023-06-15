@@ -70,3 +70,22 @@ var drama = [Movie(displayPic:"edge", displayReview: "4.5/5 | PG-13\nA shy high 
              Movie(displayPic:"wild", displayReview: "4.3/5 | PG-13\nA rebellious and spoiled American teenager is sent to a strict British boarding school, where she learns about friendship, self-discovery, and personal growth."),
              Movie(displayPic:"gump", displayReview: "5/5 | PG-13\nA kind-hearted man named Forrest Gump shares his extraordinary life story, spanning several decades, as he unintentionally becomes a part of significant historical events."),
              Movie(displayPic:"star", displayReview: "4.5/5 | R\nA talented but struggling musician falls in love with a rising star, as their relationship faces the challenges of fame, addiction, and personal demons.")]
+
+var romance = [Movie(displayPic: "titanic", displayReview: "4.8/5 | PG-13\nA seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."),
+               Movie(displayPic:"wallflower", displayReview: "4.8/5 | PG-13\nCharlie, a 15-year-old introvert, enters high school and is nervous about his new life. When he befriends his seniors, he learns to cope with his friend's suicide and his tumultuous past."),
+               Movie(displayPic: "notebook", displayReview: "4.7/5 | PG-13\nA poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom. However, social differences soon get in the way."),
+               Movie(displayPic: "pride and prejudice", displayReview: "4.6/5 | PG\nSparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?"),
+               Movie(displayPic: "easy a", displayReview: "4.3/5 | PG-13\nA clean-cut high school student relies on the school's rumor mill to advance her social and financial standing."),
+               Movie(displayPic: "cinderella", displayReview: "4.5/5 | PG\nRoutinely exploited by her wicked stepmother, the downtrodden Samantha Montgomery is excited about the prospect of meeting her Internet beau at the school's Halloween dance.")]
+            
+var action = [Movie(displayPic: "matrix", displayReview: "4.7/5 | R\nWhen a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."),
+              Movie(displayPic: "jurassic park", displayReview: "4.7/5 | PG-13\nA pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."),
+              Movie(displayPic: "top gun", displayReview: "4.5/5 | PG\nAs students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom."),
+              Movie(displayPic: "terminator", displayReview: "4.7/5 | R\nA human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation."),
+              Movie(displayPic: "indiana jones", displayReview: "4.6/5 | PG-13\nIn 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers."),
+              Movie(displayPic: "dunkirk", displayReview: "4.2/5 | PG-13\nAllied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II."),
+              Movie(displayPic: "spiderman", displayReview: "4.2/5 | PG-13\nPeter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."),
+              Movie(displayPic: "hunger games", displayReview: "4.5/5 | PG-13\nKatniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.")]
+                    
+
+

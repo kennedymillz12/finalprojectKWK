@@ -86,6 +86,13 @@ struct MovieCategorySelection: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("ROMANCE") {
+                        genre = romance[Int.random(in:0..<6)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
@@ -104,6 +111,13 @@ struct MovieCategorySelection: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("ACTION") {
+                        genre = action[Int.random(in:0..<8)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
@@ -154,7 +168,7 @@ struct MovieCategorySelection: View {
                                                             Text(clicker)
                                     
                             }
-                            .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.096, green: 0.106, blue: 0.14)/*@END_MENU_TOKEN@*/)
+                            .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.794, green: 0.525, blue: 0.103)/*@END_MENU_TOKEN@*/)
                             .font(Font.custom("Limelight-Regular", size: 18))
             
             

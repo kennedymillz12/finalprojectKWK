@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SnackDisplay: View {
-    @State var image = "M&MS"
+    @State var image = "IceSpice"
     @State var name = "Coral"
     
     var body: some View {

@@ -9,7 +9,7 @@ import SwiftUI
 struct SnackCategorySelection: View {
     @State private var flavor = Snack(displayPic : "", displayTitle : "")
     
-    @State var image = "Soda"
+    @State var image = "IceSpice"
     @State var name = "Coral"
     @State var clicker = ""
     

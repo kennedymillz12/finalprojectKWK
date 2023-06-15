@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct MovieDisplay: View {
+    @State var image = "IceSpice"
+    @State var review = "Coral"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text(review)
+                .padding()
+            
+                .padding()
+            
+            Image(image)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            
+        }
     }
 }
 

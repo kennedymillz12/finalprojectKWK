@@ -7,6 +7,12 @@
 
 import SwiftUI
 struct MovieCategorySelection: View {
+    @State private var genre = Movie(displayPic: "", displayReview: "")
+    
+    @State var image = "IceSpice"
+    @State var review = "Coral"
+    @State var clicker = ""
+    
     var body: some View {
         NavigationStack{
             ZStack {
@@ -75,6 +81,10 @@ struct MovieCategorySelection: View {
                     .fontWeight(.thin)
                     
                     Button("SCI-FI/FANTASY") {
+                        genre = sciFi[Int.random(in:0..<4)]
+                        image = genre.getPic()
+                        review = genre.getReview()
+                        clicker = "Press here to See Our Selection"
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
@@ -83,8 +93,8 @@ struct MovieCategorySelection: View {
                     
                 }
             }
-            NavigationLink(destination: MovieDisplay()){
-                Text("Miracle")
+            NavigationLink(destination: MovieDisplay(image: self.image, review: self.review)){
+                Text(clicker)
             }
         }
         

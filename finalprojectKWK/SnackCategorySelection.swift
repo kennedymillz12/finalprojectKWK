@@ -13,6 +13,8 @@ struct SnackCategorySelection: View {
     @State var name = "Coral"
     @State var clicker = ""
     
+    @State var wildCard = sweet
+    
     var body: some View {
         
         NavigationStack{
@@ -72,6 +74,13 @@ struct SnackCategorySelection: View {
                     .font(.title)
                     
                     Button("SURPRISE ME!") {
+                        wildCard = flavors[Int.random(in:0..<4)]
+                        flavor = wildCard[Int.random(in:0..<5)]
+                        image = flavor.getPic()
+                        name = flavor.getTitle()
+                        clicker = "Press here to See Our Selection"
+                        
+                        
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)

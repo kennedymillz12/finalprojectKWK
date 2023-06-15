@@ -25,7 +25,7 @@ class Movie{
     }
 }
 
-var sciFi = [Movie(displayPic: "Avatar", displayReview: "4/5 stars\nOn the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world.\nBlue People get Colonized"),
+var sciFi = [Movie(displayPic: "Avatar", displayReview: "4/5 stars\nA paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."),
              
              Movie(displayPic: "Avatar 2", displayReview: "4/5 stars\nJake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.\nIt's like Avatar but Moister"),
              

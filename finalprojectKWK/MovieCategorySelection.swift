@@ -32,6 +32,7 @@ struct MovieCategorySelection: View {
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.794, green: 0.525, blue: 0.103)/*@END_MENU_TOKEN@*/)
                     
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.097, green: 0.106, blue: 0.14)/*@END_MENU_TOKEN@*/)
+                        .multilineTextAlignment(.center)
                         .padding(.all)
                     
                     Button("COMEDY") {
@@ -41,6 +42,8 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.8588235294117647, blue: 0.5176470588235295)/*@END_MENU_TOKEN@*/)
+                    
                     
                     Button("HORROR") {
                     }
@@ -49,6 +52,8 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.996078431372549, blue: 0.6784313725490196)/*@END_MENU_TOKEN@*/)
+                    
                     
                     Button("DRAMA") {
                     }
@@ -57,6 +62,7 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("ROMANCE") {
                     }
@@ -65,6 +71,7 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.001, green: 0.996, blue: 0.677)/*@END_MENU_TOKEN@*/)
                     
                     Button("COMING OF AGE") {
                     }
@@ -73,6 +80,7 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("ACTION") {
                     }
@@ -81,6 +89,7 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.001, green: 0.996, blue: 0.677)/*@END_MENU_TOKEN@*/)
                     
                     Button("FAMILY FRIENDLY") {
                     }
@@ -89,13 +98,16 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("SCI-FI/FANTASY") {
                         genre = sciFi[Int.random(in:0..<4)]  //Call the genre array I made in Movie
                         image = genre.getPic()               //Call getPic func in Movie to update image
                         review = genre.getReview()           //Call getReview func in Movie to update
                         clicker = "Press here to See Our Selection"  //Update the clicker on bottom
+                        
                     }
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.001, green: 0.996, blue: 0.677)/*@END_MENU_TOKEN@*/)
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
@@ -109,12 +121,24 @@ struct MovieCategorySelection: View {
                     .tint(Color(red: 0.156, green: 0.221, blue: 0.242))
                     .font(.title)
                     .fontWeight(.thin)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
+                    
                     
                 }
+                
             }
-            NavigationLink(destination: MovieDisplay(image: self.image, review: self.review)){
-                Text(clicker)
-            }
+            
+                   
+                NavigationLink(destination: MovieDisplay(image: self.image, review: self.review)){
+                                                            Text(clicker)
+                                    
+                            }
+                            .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.096, green: 0.106, blue: 0.14)/*@END_MENU_TOKEN@*/)
+                            .font(Font.custom("Limelight-Regular", size: 18))
+            
+            
+            
+            
         }
         
         

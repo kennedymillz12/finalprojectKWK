@@ -47,3 +47,4 @@ var salty = [Snack(displayPic: "goldfish", displayTitle: "Try the snack that smi
 
 ]
 
+var flavors = [sweet,spicy,sour,salty]

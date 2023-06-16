@@ -25,8 +25,7 @@ class Movie{
     }
 }
 
-var comedy = [Movie(displayPic: "easy a", displayReview: "4/5 stars | PG-13\nA high school student sets out to lose her reputation, but along the way makes an even worse name for herself."),
-              
+var comedy = [
               Movie(displayPic: "mean girls", displayReview: "4.6/5 stars | PG-13\nNew to Illinois, Cady experiences the rigid social divisions of her school, inadvertently becoming friends with the popular but shallow 'Plastics' and later discovering their true nature."),
               
               Movie(displayPic: "bring it on", displayReview: "4.5/5 stars | PG-13\nThe Rancho High Toro cheerleading team has it made for them... until the East Compton Clovers expose their dirty little secret"),
@@ -75,7 +74,6 @@ var romance = [Movie(displayPic: "titanic", displayReview: "4.8/5 | PG-13\nA sev
                Movie(displayPic:"wallflower", displayReview: "4.8/5 | PG-13\nCharlie, a 15-year-old introvert, enters high school and is nervous about his new life. When he befriends his seniors, he learns to cope with his friend's suicide and his tumultuous past."),
                Movie(displayPic: "notebook", displayReview: "4.7/5 | PG-13\nA poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom. However, social differences soon get in the way."),
                Movie(displayPic: "pride and prejudice", displayReview: "4.6/5 | PG\nSparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?"),
-               Movie(displayPic: "easy a", displayReview: "4.3/5 | PG-13\nA clean-cut high school student relies on the school's rumor mill to advance her social and financial standing."),
                Movie(displayPic: "cinderella", displayReview: "4.5/5 | PG\nRoutinely exploited by her wicked stepmother, the downtrodden Samantha Montgomery is excited about the prospect of meeting her Internet beau at the school's Halloween dance.")]
             
 var action = [Movie(displayPic: "matrix", displayReview: "4.7/5 | R\nWhen a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."),
@@ -84,8 +82,21 @@ var action = [Movie(displayPic: "matrix", displayReview: "4.7/5 | R\nWhen a beau
               Movie(displayPic: "terminator", displayReview: "4.7/5 | R\nA human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation."),
               Movie(displayPic: "indiana jones", displayReview: "4.6/5 | PG-13\nIn 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers."),
               Movie(displayPic: "dunkirk", displayReview: "4.2/5 | PG-13\nAllied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II."),
-              Movie(displayPic: "spiderman", displayReview: "4.2/5 | PG-13\nPeter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."),
+              Movie(displayPic: "spiderMan", displayReview: "4.2/5 | PG-13\nPeter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."),
               Movie(displayPic: "hunger games", displayReview: "4.5/5 | PG-13\nKatniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.")]
-                    
+
+
+var familyFriendly = [Movie(displayPic: "aladdin", displayReview: "4/5 | PG\nAladdin stumbles upon a magic oil lamp that unleashes a powerful, wisecracking, larger-than-life genie. As Aladdin and the genie start to become friends, they must soon embark on a dangerous mission to stop the evil sorcerer Jafar from overthrowing young Jasmine's kingdom."),
+                      Movie(displayPic: "badGuys", displayReview: "4.5/5 | PG\nIn the new action comedy from DreamWorks Animation, based on the New York Times best-selling book series, a crackerjack criminal crew of animal outlaws are about to attempt their most challenging con yet--becoming model citizens. "),
+                      Movie(displayPic: "coraline", displayReview: "4/5 | PG\nWhile exploring her new home, a girl named Coraline (Dakota Fanning) discovers a secret door, behind which lies an alternate world that closely mirrors her own but, in many ways, is better.  "),
+                      Movie(displayPic: "lionKing", displayReview: "4.5/5 | PG\nSimba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. "),
+                      Movie(displayPic: "moana", displayReview: "4/5 | PG\nAn adventurous teenager sails out on a daring mission to save her people. During her journey, Moana meets the once-mighty demigod Maui, who guides her in her quest to become a master way-finder. Together they sail across the open ocean on an action-packed voyage, encountering enormous monsters and impossible odds. "),
+                      Movie(displayPic: "parentTrap", displayReview: "4/5 | PG\ntwins Annie and Hallie are strangers until happenstance unites them. After meeting at camp, American Hallie and British-raised Annie engineer an identity swap, giving both the chance to spend time with the parent they've missed."),
+                      Movie(displayPic: "princessFrog", displayReview: "4.5/5 | G\nTiana dreams of one day opening the finest restaurant in New Orleans. Her dream takes a detour when she meets Prince Naveen, who has been turned into an amphibian by evil Dr. Facilier."),
+                      Movie(displayPic: "sing", displayReview: "4/5 | PG\nDapper Koala Buster Moon presides over a once-grand theater that has fallen on hard times. An eternal optimist, and a bit of a scoundrel, he loves his theater above all and will do anything to preserve it."),
+                      Movie(displayPic: "wimpyKid", displayReview: "4/5 | PG\nGreg Heffley dreams of becoming famous while surviving middle school with his best friend, Rowley."),
+                      Movie(displayPic: "wonder", displayReview: "4.7/5 | G\nBorn with facial differences that, up until now, have prevented him from going to a mainstream school, Auggie Pullman becomes the most unlikely of heroes when he enters the local fifth grade."),
+
+]
 
 

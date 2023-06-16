@@ -36,7 +36,7 @@ struct MovieCategorySelection: View {
                         .padding(.all)
                     
                     Button("COMEDY") {
-                        genre = comedy[Int.random(in:0..<7)]
+                        genre = comedy[Int.random(in:0..<10)]
                         
                         image = genre.getPic()
                         
@@ -86,7 +86,7 @@ struct MovieCategorySelection: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.0, green: 0.858, blue: 0.518)/*@END_MENU_TOKEN@*/)
                     
                     Button("ROMANCE") {
-                        genre = romance[Int.random(in:0..<6)]
+                        genre = romance[Int.random(in:0..<5)]
                         
                         image = genre.getPic()
                         
@@ -127,6 +127,13 @@ struct MovieCategorySelection: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.001, green: 0.996, blue: 0.677)/*@END_MENU_TOKEN@*/)
                     
                     Button("FAMILY FRIENDLY") {
+                        genre = familyFriendly[Int.random(in:0..<10)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)

@@ -99,4 +99,13 @@ var familyFriendly = [Movie(displayPic: "aladdin", displayReview: "4/5 | PG\nAla
 
 ]
 
+var comingOfAge = [Movie(displayPic:"edge", displayReview: "4.5/5 | PG-13\nA shy high school freshman navigates friendship, love, and personal struggles as he becomes friends with a group of misfit seniors."),
+                   Movie(displayPic:"pants", displayReview: "4/5 | PG\nFour best friends spend their first summer apart and stay connected through a magical pair of jeans that fits each of them perfectly."),
+                   Movie(displayPic: "13", displayReview: "4/5 | R\nA raw and intense drama about the tumultuous journey of a 13-year-old girl navigating peer pressure, rebellion, and self-destructive behavior."),
+                   Movie(displayPic: "booksmart", displayReview: "4.5/5 | R\nTwo high-achieving best friends decide to let loose on the eve of their graduation, embarking on a wild night of adventure and self-discovery."),
+                   Movie(displayPic: "club", displayReview: "5/5 | R\nFive high school students from different social groups spend a Saturday in detention and discover common ground beyond their stereotypes."),
+                   Movie(displayPic: "cmbyn", displayReview: "4.5/5 | R\nSet in 1980s Italy, a summer romance unfolds between a 17-year-old boy and a doctoral student, exploring themes of love, identity, and self-discovery."),
+                   Movie(displayPic: "hazel", displayReview: "4.5/5 | PG-13\nTwo teenagers with cancer form a deep connection as they navigate the complexities of life, love, and mortality."),
+                   Movie(displayPic: "juno", displayReview: "4.5/5 | PG-13\nA quirky teenager faces unexpected challenges when she becomes pregnant and decides to give the baby up for adoption.")]
+
 

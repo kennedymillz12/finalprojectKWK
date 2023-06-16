@@ -91,6 +91,8 @@ struct SnackCategorySelection: View {
             
             NavigationLink(destination: SnackDisplay(image: self.image, name: self.name)){
                 Text(clicker)
+                    .font(Font.custom("Limelight-Regular", size:18))
+                    .foregroundColor(Color(red: 0.858, green: 0.13, blue: 0.149))
             }
         }
        

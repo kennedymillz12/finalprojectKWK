@@ -127,6 +127,13 @@ struct MovieCategorySelection: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 1.001, green: 0.996, blue: 0.677)/*@END_MENU_TOKEN@*/)
                     
                     Button("FAMILY FRIENDLY") {
+                        genre = familyFriendly[Int.random(in:0..<10)]
+                        
+                        image = genre.getPic()
+                        
+                        review = genre.getReview()
+                        
+                        clicker = "Press here to See Our Selection"
                     }
                     .font(Font.custom("Limelight-Regular", size: 30))
                     .buttonStyle(.borderedProminent)
